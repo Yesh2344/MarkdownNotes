@@ -1,3 +1,4 @@
+# Minor edit
 <?php
 return [
     'db' => [
