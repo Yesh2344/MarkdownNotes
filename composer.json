@@ -1,0 +1,16 @@
+{
+    "name": "markdown-notes",
+    "description": "A Markdown note-taking app",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "doctrine/dbal": "^3.3",
+        "monolog/monolog": "^2.3",
+        "php-parser/php-parser": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
